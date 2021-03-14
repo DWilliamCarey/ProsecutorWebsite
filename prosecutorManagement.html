@@ -222,89 +222,15 @@
                 <div class="page-header">
                   
                   <div class="quick-link-wrapper w-100 d-md-flex flex-md-wrap">
-                    <h4 class="page-title" style="font-weight: bold;text-transform: uppercase;">Prosecutors Court Category</h4>
+                    <h4 class="page-title" style="font-weight: bold;text-transform: uppercase;">Prosecutor Management</h4>
                     <ul class="quick-links ml-auto">
-                      <li><button type="button" class="btn btn-primary toolbar-item" data-toggle="modal" data-target="#exampleModal">Add Court Category</button></li>
+                      <li><button type="button" class="btn btn-primary toolbar-item" data-toggle="modal" data-target="#exampleModal">Add Prosecutor</button></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Page Title Header Ends-->
-
-            <div class="row mb-3">
-                <div class="col-md-12">
-                  <div class="card">
-                    <div class="card-body">
-
-                      <div class="row">
-                        <div class="col-md-12 mb-1">
-                          <div class="card rounded shadow-none">
-                            <div class="card-body">
-                              <div class="row">
-                                <div class="col-md-5 d-flex">
-                                  <div class="user-avatar mb-auto">
-                                    <img src="assets/images/faces/face1.jpg" alt="profile image" class="profile-img img-lg rounded-circle">
-                                  </div>
-                                  <div class="wrapper pl-4">
-                                    <div class="wrapper d-flex align-items-center">
-                                      <h4 class="mb-0 mt-3 font-weight-medium">Danny Santiago</h4>
-                                      
-                                    </div>
-                                    <div class="wrapper d-flex align-items-center font-weight-medium text-muted">
-                                        <div class="badge badge-primary mt-2">Tenure (Contract Base)</div>
-                                    </div>
-                                    
-                                  </div>
-                                </div>
-                                <div class="col-md-7">
-                                  
-                                  <p class="text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="wrapper border-top">
-                              <div class="card-body">
-                                <div class="row">
-                                  
-                                  <div class="col d-flex">
-                                    <div class="d-inline-flex align-items-center justify-content-center border rounded-circle px-2 py-2 my-auto text-muted">
-                                      <i class="mdi mdi-account-plus icon-sm my-0 mx-1"></i>
-                                    </div>
-                                    <div class="wrapper pl-3">
-                                      <p class="mb-0 font-weight-medium text-muted">No. Of Categories</p>
-                                      <h4 class="font-weight-semibold mb-0">4</h4>
-                                    </div>
-                                  </div>
-                                  <div class="col d-flex">
-                                    <div class="d-inline-flex align-items-center justify-content-center border rounded-circle px-2 py-2 my-auto text-muted">
-                                      <i class="mdi mdi-server-security icon-sm my-0 mx-1"></i>
-                                    </div>
-                                    <div class="wrapper pl-3">
-                                      <p class="mb-0 font-weight-medium text-muted">Total Peroid</p>
-                                      <h4 class="font-weight-semibold mb-0">5 Years 21 Days</h4>
-                                    </div>
-                                  </div>
-                                  <div class="col d-flex">
-                                    <div class="d-inline-flex align-items-center justify-content-center border rounded-circle px-2 py-2 my-auto text-muted">
-                                      <i class="mdi mdi-chart-arc icon-sm my-0 mx-1"></i>
-                                    </div>
-                                    <div class="wrapper pl-3">
-                                      <p class="mb-0 font-weight-medium text-muted">PERFORMANCE</p>
-                                      <h4 class="font-weight-semibold mb-0 text-primary">49.65%</h4>
-                                    </div>
-                                  </div>
-                                  
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
             <div class="row">
               <div class="col-md-12 grid-margin stretch-card">
@@ -315,19 +241,25 @@
                         <thead>
                           <tr>
                             <th>Id</th>
-                            <th>Court Category</th>
-                            <th>Qty</th>
-                            <th>Worked Age</th>
-                            <th>Details</th>
+                            <th>Prosecutor Name</th>
+                            <th>Date Of Joining</th>
+                            <th>Designation</th>
+                            <th>Contact No</th>
+                            <th>Date Of Birth</th>
+                            <th>Status</th>
+                            <th>Actions</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>1</td>
-                            <td>Supreme Court</td>
-                            <td>1</td>
+                            <td>Sudhakar</td>
+                            <td>24/03/2001</td>
+                            <td>Lawyer</td>
+                            <td>9084534565</td>
+                            <td>24/03/1993</td>
                             <td>
-                              1 year
+                              <label class="badge badge-inverse-success">Active</label>
                             </td>
                             <td>
                               <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Edit</button>
@@ -335,10 +267,13 @@
                           </tr>
                           <tr>
                             <td>2</td>
-                            <td>High Courts</td>
-                            <td>2</td>
+                            <td>Ramesh</td>
+                            <td>24/03/2008</td>
+                            <td>Lawyer</td>
+                            <td>8884534565</td>
+                            <td>24/03/1997</td>
                             <td>
-                              3 years
+                              <label class="badge badge-inverse-danger">In Active</label>
                             </td>
                             <td>
                               <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Edit</button>
@@ -346,10 +281,41 @@
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td>District Courts</td>
-                            <td>1</td>
+                            <td>Rahul</td>
+                            <td>24/03/2001</td>
+                            <td>Lawyer</td>
+                            <td>9084534565</td>
+                            <td>24/03/1993</td>
                             <td>
-                              1 year
+                              <label class="badge badge-inverse-success">Active</label>
+                            </td>
+                            <td>
+                              <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Edit</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>David</td>
+                            <td>24/03/2001</td>
+                            <td>Lawyer</td>
+                            <td>9084534565</td>
+                            <td>24/03/1993</td>
+                            <td>
+                              <label class="badge badge-inverse-success">Active</label>
+                            </td>
+                            <td>
+                              <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Edit</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>Suresh</td>
+                            <td>24/03/1993</td>
+                            <td>Lawyer</td>
+                            <td>6664534565</td>
+                            <td>24/03/1973</td>
+                            <td>
+                              <label class="badge badge-inverse-danger">In Active</label>
                             </td>
                             <td>
                               <button class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Edit</button>
@@ -381,31 +347,138 @@
     <!-- container-scroller -->
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header" style="padding: 10px 26px;">
-              <h5 class="modal-title" id="exampleModalLabel">Add Court Category</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Add Prosecutor</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
                 <div class="row">
-                      
-                        <div class="col-lg-12">
+                        <div class="col-lg-2">
+                          <div class="drop-zone">
+                            <span class="drop-zone__prompt">Upload Image</span>
+                            <input type="file" name="myFile" class="drop-zone__input">
+                          </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="col-lg-12 pl-0 pr-0">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label>Prefix</label>
+                                            <select class="form-control">
+                                                <option>Mr.</option>
+                                                <option>Mrs.</option>
+                                                <option>Miss.</option>
+                                                <option>Mx.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <label>Prosecutor Name</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
                             <div class="form-group">
-                                <label>Name</label>
+                                <label>Enrolment No.</label>
                                 <input class="form-control" type="text">
                             </div>
                             <div class="form-group">
-                                <label>Status</label>
-                                  <select class="form-control">
-                                    <option>Active</option>
-                                    <option>In Active</option>
+                                <label>Email Id</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label>Gender</label>
+                                  <select class="form-control" disabled>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Others</option>
                                   </select>
                             </div>
+                            <div class="form-group">
+                                <label>Prosecutor Type</label>
+                                  <select class="form-control">
+                                    <option>Cadre (Regular)</option>
+                                    <option>Tenure (Contract Base)</option>
+                                  </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Permament Contact No.</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            
                         </div>
-                       
+                        <div class="col-lg-3">
+                            
+                            <div class="form-group">
+                                <label>Date of Birth</label>
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Date of Joining into Service</label>
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Date of Retirement from Service</label>
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-2">
+                          
+                        </div>
+                        <div class="col-lg-10">
+
+                          <div class="form-group">
+                            <label>Curent Address</label>
+                            <input class="form-control" type="text">
+                          </div>
+   
+                        </div>
+                        <div class="col-lg-2">
+                          
+                        </div>
+                        <div class="col-lg-10">
+
+                          <div class="form-group">
+                            <label>Permanent Address</label>
+                            <input class="form-control" type="text">
+                          </div>
+   
+                        </div>
+                        <div class="col-lg-2">
+
+                        </div>
+                        
                   </div>
             </div>
             <div class="modal-footer">
@@ -435,7 +508,87 @@
     <script src="assets/vendors/datatables.net-fixedcolumns/dataTables.fixedColumns.min.js"></script>
     <script src="assets/js/shared/data-table.js"></script>
 
-   
+    <script>
+        $('.datepicker').datepicker();
+        $.fn.datepicker.defaults.format = "dd/mm/yyyy";
+        $('.datepicker').datepicker({
+            startDate: '-3d'
+        });
+    </script>
+    <script>
+      document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+  const dropZoneElement = inputElement.closest(".drop-zone");
+
+  dropZoneElement.addEventListener("click", (e) => {
+    inputElement.click();
+  });
+
+  inputElement.addEventListener("change", (e) => {
+    if (inputElement.files.length) {
+      updateThumbnail(dropZoneElement, inputElement.files[0]);
+    }
+  });
+
+  dropZoneElement.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropZoneElement.classList.add("drop-zone--over");
+  });
+
+  ["dragleave", "dragend"].forEach((type) => {
+    dropZoneElement.addEventListener(type, (e) => {
+      dropZoneElement.classList.remove("drop-zone--over");
+    });
+  });
+
+  dropZoneElement.addEventListener("drop", (e) => {
+    e.preventDefault();
+
+    if (e.dataTransfer.files.length) {
+      inputElement.files = e.dataTransfer.files;
+      updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+    }
+
+    dropZoneElement.classList.remove("drop-zone--over");
+  });
+});
+
+/**
+ * Updates the thumbnail on a drop zone element.
+ *
+ * @param {HTMLElement} dropZoneElement
+ * @param {File} file
+ */
+function updateThumbnail(dropZoneElement, file) {
+  let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
+
+  // First time - remove the prompt
+  if (dropZoneElement.querySelector(".drop-zone__prompt")) {
+    dropZoneElement.querySelector(".drop-zone__prompt").remove();
+  }
+
+  // First time - there is no thumbnail element, so lets create it
+  if (!thumbnailElement) {
+    thumbnailElement = document.createElement("div");
+    thumbnailElement.classList.add("drop-zone__thumb");
+    dropZoneElement.appendChild(thumbnailElement);
+  }
+
+  thumbnailElement.dataset.label = file.name;
+
+  // Show thumbnail for image files
+  if (file.type.startsWith("image/")) {
+    const reader = new FileReader();
+
+    reader.readAsDataURL(file);
+    reader.onload = () => {
+      thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+    };
+  } else {
+    thumbnailElement.style.backgroundImage = null;
+  }
+}
+
+    </script>
   </body>
 
 
